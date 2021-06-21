@@ -5,7 +5,6 @@ const bodyParser = require('body-parser');
 const config = require('./config/key.js');
 const { User } = require('./models/User.js');
 
-console.log(config.mongoURI) 
 //application/x-www-gorm-urlencoded
 app.use(express.urlencoded({extended: true}));
 
